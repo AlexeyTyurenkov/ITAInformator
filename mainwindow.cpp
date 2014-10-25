@@ -16,7 +16,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked(bool checked)
 {
     QMessageBox msgBox;
-    msgBox.setText("Hello World!");
+    msgBox.setText("Hello World2!");
     msgBox.setWindowTitle("Checking for update.");
     msgBox.setWindowModality(Qt::WindowModal);
     msgBox.exec();
