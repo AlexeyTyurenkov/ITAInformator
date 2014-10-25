@@ -16,7 +16,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked(bool checked)
 {
     QMessageBox msgBox;
-    msgBox.setText("Please wait to connect to the server.");
+    msgBox.setText("Hello World!");
     msgBox.setWindowTitle("Checking for update.");
     msgBox.setWindowModality(Qt::WindowModal);
     msgBox.exec();
